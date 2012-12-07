@@ -1,0 +1,29 @@
+%form{ action: '/checkout', method: 'post', :id => "userInformation" }
+  %p
+    %input{ type: 'text', name: 'check[value]', :placeholder => "Valor", :class => 'required' }
+  %p
+    %input{ type: 'text', name: 'check[name]', :placeholder => "Nome", :class => 'required' }
+  %p
+    %input{ type: 'text', name: 'check[email]', :placeholder => "E-mail", :class => 'required email' }
+  %p
+    %input{ type: 'text', name: 'check[address]', :placeholder => "Endereço", :class => 'required' }
+  %p
+    %input{ type: 'text', name: 'check[number]', :placeholder => "Número", :class => 'required' }
+  %p
+    %input{ type: 'text', name: 'check[complement]', :placeholder => "Complemento" }
+  %p
+    %input{ type: 'text', name: 'check[district]', :placeholder => "Bairro", :class => 'required' }
+  %p
+    %input{ type: 'text', name: 'check[city]', :placeholder => "Cidade", :class => 'required' }
+  %p
+    %input{ type: 'text', name: 'check[state]', :placeholder => "Estado", :class => 'required' }
+  %p
+    %input{ type: 'text', name: 'check[zip_code]', :placeholder => "CEP", :class => 'required' }
+  %p
+    %input{ type: 'text', name: 'check[phone]', :placeholder => "Telefone Fixo", :class => 'required' }
+  %p
+    %input{ type: 'submit', value: 'Continuar' }
+
+#check
+
+#moip_response
