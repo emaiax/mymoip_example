@@ -1,19 +1,23 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activemodel (3.2.9)
-      activesupport (= 3.2.9)
-      builder (~> 3.0.0)
-    activesupport (3.2.9)
-      i18n (~> 0.6)
-      multi_json (~> 1.0)
-    builder (3.0.4)
+    activemodel (7.0.4.1)
+      activesupport (= 7.0.4.1)
+    activesupport (7.0.4.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    builder (3.2.4)
+    concurrent-ruby (1.1.10)
     haml (3.1.7)
     httparty (0.9.0)
       multi_json (~> 1.0)
       multi_xml
-    i18n (0.6.1)
-    multi_json (1.4.0)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    minitest (5.17.0)
+    multi_json (1.15.0)
     multi_xml (0.5.1)
     mymoip (0.4.0)
       activemodel
@@ -29,6 +33,8 @@ GEM
       rack-protection (~> 1.2)
       tilt (~> 1.3, >= 1.3.3)
     tilt (1.3.3)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
 
 PLATFORMS
   ruby
